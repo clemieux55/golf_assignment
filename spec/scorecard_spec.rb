@@ -1,5 +1,5 @@
 require 'rspec'
-require_relative 'scorecard.rb'
+require_relative '../scorecard.rb'
 
 
 describe 'ScoreCard' do 

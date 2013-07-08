@@ -1,7 +1,7 @@
 require 'rspec'
-require_relative 'score_card_reader.rb'
-require_relative 'course_par.rb'
-require_relative 'scorecard.rb'
+require_relative '../score_card_reader.rb'
+require_relative '../course_par.rb'
+require_relative '../scorecard.rb'
 
 describe 'ScoreCardReader' do 
 	let(:scorecard) { ScoreCard.new('tiger_woods.csv').scores_for_player }

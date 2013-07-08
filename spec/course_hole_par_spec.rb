@@ -1,5 +1,5 @@
 require 'rspec'
-require_relative 'course_par.rb'
+require_relative '../course_par.rb'
 
 describe 'CoursePar' do 
 
